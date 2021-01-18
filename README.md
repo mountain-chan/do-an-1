@@ -8,14 +8,16 @@ Cho số nguyên dương n, hai số nguyên: a,b được gọi là đồng dư
 
 ## Tạo mã
 •	Chọn một số tự nhiên e trong khoảng (1, λ(n)) sao cho ƯCLN(e, λ(n)) = 1, tức là e và λ(n) nguyên tố cùng nhau.
+
 •	Tính toán số d sao cho de ≡ 1 mod λ(n). Số d được gọi là số nghịch đảo modulo của e (theo modulo mod λ(n)).
+
 •	Public key sẽ là bộ số (n, e), và private key sẽ là bộ số (n, d).
 
 ## Mã hoá và giải mã
 Giả sử m là tin nhắn cần mã hoá, c là tin nhắn đã được mã hoá.
 
 ### Mã hoá
-•	c ≡ m^e mod n
+c ≡ m^e mod n
 
-### Giải hoá
-•	c^d ≡ m^de ≡ m mod n => m = c^d % n
+### Giải mã
+c^d ≡ m^de ≡ m mod n => m = c^d % n
