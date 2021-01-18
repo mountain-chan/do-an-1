@@ -1,6 +1,9 @@
 # do-an-1
 Đề tài: Xây dựng dịch vụ chat an toàn với RSA
 
+![alt](https://github.com/mountain-chan/do-an-1/blob/main/he_thong_chat_an_toan.png)
+
+
 ## Đồng dư là gì.
 Cho số nguyên dương n, hai số nguyên: a,b được gọi là đồng dư theo mô-đun n nếu chúng có cùng số dư khi chia cho n. Điều này tương đương với hiệu a-b chia hết cho n.
 
